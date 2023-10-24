@@ -1,0 +1,30 @@
+/* 
+Small Window */
+
+@media (max-width: 700px), (min-width: 700px) {
+ 
+
+  nav.nav1 {
+    display: none;
+  }
+}
+
+@media (min-width: 800px), (min-width: 800px) {
+
+  .right-navigation .menu-toggle{
+    display: none;
+   }
+  nav.nav1 {
+    display: flex;
+  }
+}
+
+@media (min-width: 1460px) {
+ 
+  .right-navigation .menu-toggle{
+    display: none;
+   }
+  .carousel_img{
+    max-width: 100%;
+  }
+}

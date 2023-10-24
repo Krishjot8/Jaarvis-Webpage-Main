@@ -1,0 +1,46 @@
+
+
+/* reviews */
+
+.reviews {
+    background-color: #ffffff;
+  
+    height: 100em;
+  }
+  
+  .reviews h1 {
+    position: relative;
+   text-align: center;
+  top: 25%;
+   
+  }
+  
+  .reviews-list{
+  position: absolute;
+  display: flex;
+  left: 50%;                  /* list Not going nowwhere */
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    align-items: center;
+  transform: translate(-24em,120em);
+  
+  }
+  
+  .reviews-list .dot{
+  
+  margin:  0px 15px;
+  cursor: pointer;
+  border: 5.5px solid #dedede;
+  padding-left: 5em;
+  box-sizing: border-box;
+  width: 12px;
+  list-style-type: none;
+  align-items: center;
+  }
+  
+  .selected{
+  
+   background-color: #1e83ec;
+   color: white;
+    }

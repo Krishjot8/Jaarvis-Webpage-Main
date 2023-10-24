@@ -1,0 +1,150 @@
+.widget {
+  background-color: #222222;
+  height: 44em;
+  width: 100%;
+}
+
+.footer {
+  background-color: #222222;
+  height: 5em;
+}
+
+.aboutjaarvis h4 {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Montserrat;
+
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-57em, 315em);
+}
+
+.aboutjaarvis p {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Varela Round;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-42.5em, 241.5em);
+  text-align: start;
+  line-height: 30px;
+}
+
+.quicklinks span {
+  color: #ffffff;
+  font-size: 80%;
+  font-family: Montserrat;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-24em, 296.5em);
+}
+
+.quicklinks li {
+  margin: 15px;
+}
+
+.quicklinks ul {
+  color: #ffffff;
+  list-style-type: none;
+  position: absolute;
+  font-family: Varela Round;
+  text-align: start;
+
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-22.5em, 238em);
+}
+
+.recent-posts h4 {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(5em, 314.6em);
+}
+
+.recent-posts-content {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: Varela Round;
+  position: absolute;
+  bottom: 50%;
+  top: 50%;
+  text-align: start;
+  left: 50%;
+  right: 50%;
+  transform: translate(6.5em, 239em);
+}
+
+.get-in-touch h4 {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Montserrat;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(35.5em, 314.5em);
+}
+.get-in-touch-content {
+  font-family: Varela Round;
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  left: 50%;
+  top: 50%;
+  transform: translate(26.4em, 240em);
+}
+
+/* .widget-row{
+  
+    
+  } */
+
+.copyright {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: Varela Round;
+  position: relative;
+  bottom: 13%;
+}
+
+.content2 .copyright {
+  position: relative;
+  top: 21px;
+  left: 39.06%;
+}
+
+.content2 .social {
+  position: relative;
+  display: flex;
+  top: 23px;
+  left: 59.06%;
+  display: inline-block;
+
+  font-size: 26px;
+
+  word-spacing: 11px;
+  color: #ffffff;
+}
+
+.content2 .social i {
+  color: #ffffff;
+}

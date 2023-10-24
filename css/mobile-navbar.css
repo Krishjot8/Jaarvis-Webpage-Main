@@ -1,0 +1,269 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+
+
+
+
+
+body > header input[type="checkbox"],
+body > header input[type="reset"] {
+  display: none !important;
+}
+
+
+
+
+body > header nav,
+body > header nav nav {
+  font-size: 14px;
+  height: 100vh;
+  padding-top: 30px;
+  position: fixed;
+  top: 0;
+  transition: transform .8s ease-in-out;
+  width: 300px;
+  z-index: 999;
+}
+
+
+
+
+
+
+body > header nav.right-navigation,
+body > header nav.right-navigation nav {
+  background: #1E83EC;
+  right: 0;
+
+  transform: translateX(300px);
+}
+
+body > header nav > main,
+body > header nav nav > main {
+  height: 100%;
+  overflow-x: hidden;
+ 
+  padding: 0 60px;
+  width: 100%;
+}
+
+body > header nav label {
+  cursor: pointer;
+  font-weight: xs;
+  margin: 0;
+}
+
+
+
+body > header nav label.menu-close,
+body > header nav label.menu-toggle {
+  display: block;
+  height: 50px;
+  line-height: 0;
+  padding: 0;
+  position: absolute;
+  width: 50px;
+}
+
+
+
+
+
+body > header nav.right-navigation label.menu-toggle {
+  background:none;
+  right: 300px;
+}
+
+
+body > header nav.right-navigation label.menu-close{
+background: none;
+  right: 20px;
+  bottom: 690px;
+}
+
+body > header nav label.menu-toggle>span,
+body > header nav label.menu-toggle>span:after,
+body > header nav label.menu-toggle>span:before {
+  background: #959595;
+  display: block;
+  height: 3px;
+  width: 20px;
+}
+
+body > header nav label.menu-close>span:after,
+body > header nav label.menu-close>span:before{
+  background: #ffffff;
+  display: block;
+  height: 3px;
+  width: 20px;
+  position: relative;
+  bottom: 175px;
+
+}
+
+
+
+
+
+body > header nav label.menu-toggle>span {
+  display: block;
+  margin-left: 15px;
+  margin-top: 50%;
+  position: relative;
+}
+
+body > header nav label.menu-close>span{
+  display: block;
+  margin-left: 15px;
+  margin-top: 50%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right:50%;
+
+}
+
+body > header nav label.menu-close>span:after,
+body > header nav label.menu-close>span:before,
+body > header nav label.menu-toggle>span:after,
+body > header nav label.menu-toggle>span:before {
+  content: "";
+  position: absolute;
+ 
+}
+
+body > header nav label.menu-close {
+  margin-top: 26px;
+  opacity: 0;
+  transition: all .4s ease-in;
+}
+
+
+body > header nav label.menu-close>span:before {
+  transform: rotate(-45deg);
+}
+body > header nav label.menu-close>span:after {
+  transform: rotate(45deg);
+}
+body > header nav label.menu-toggle { margin-top: -30px; }
+
+body > header nav label.menu-toggle>span:after {
+  transform: translateY(6px);
+}
+body > header nav label.menu-toggle>span:before {
+  transform: translateY(-6px);
+}
+
+body > header nav menu {
+  margin: 0;
+  padding: 0;
+}
+body > header nav menu li {
+  display: block;
+  list-style: none;
+}
+
+body > header nav menu li > a,
+body > header nav menu li > label,
+body > header nav menu li > span {
+  display: block;
+  line-height: 20px;
+  padding:10px 0;
+ position: relative;
+ right: 15%;
+ top: 45px;
+}
+
+body > header nav.right-navigation menu li > a,
+body > header nav.right-navigation menu li > label,
+body > header nav.right-navigation menu li > span {
+  text-align: right;
+}
+
+body > header nav menu li > label:after {
+  display: block;
+  font-size: 150%;
+}
+body > header nav.left-navigation menu li > label:after {
+  content: "";
+  float: right;
+}
+body > header nav.right-navigation menu li > label:after {
+  content: "";
+  float: left;
+}
+
+body > header nav nav label.menu-toggle,
+body > header nav nav label.menu-toggle>span,
+body > header nav nav label.menu-toggle>span:after,
+body > header nav nav label.menu-toggle>span:before { background: none !important; }
+
+body > header input[type="checkbox"]:checked ~ nav { transform: translateX(0); }
+
+body > header input[type="checkbox"]:checked ~ nav label.menu-close {
+  opacity: 1;
+}
+
+
+.back-toggle{
+  font-size: 80%;
+  background-color: #00000021;
+  width: 3.4em;
+  padding: 6px;
+  padding-left: -3px;
+  position: relative;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.right-navigation li{
+font-family: Open Sans;
+font-size: 26px;
+font-weight: 900;
+color: #bcdaf9;
+}
+.right-navigation main menu li {
+  text-align: start;
+ left: 15%
+  }
+  .right-navigation main menu li:hover {
+   color: #ffffff;
+    }
+
+  .nav-widget-slide{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0s 0.3s;
+    z-index: 15;
+
+  }
+
+  .overlay-content{
+margin-right:0;
+transition: margin-right 0.3s;
+
+  }

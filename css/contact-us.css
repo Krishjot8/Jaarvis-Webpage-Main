@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-us {
+    background-color: #7eced5;
+    height: 106%;
+  }
+  .contact-us h1 {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: Hind;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 40%;
+  }
+  
+  #CU-Button {
+    background-color: #7eced5;
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 13px 42px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -170%);
+  }
+  
+  #CU-Button:hover {
+    background-color: #1e83ec;
+    border: #1e83ec;
+  }

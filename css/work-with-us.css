@@ -1,0 +1,160 @@
+
+.WorkWithUs {
+    background-image: url(assets/whyWorkWithUs.jpg);
+    background-repeat: none;
+    width: 100%;
+    height: 1190.5px;
+    object-fit: cover;
+  
+    position: relative;
+  }
+  
+  .work-with-us-content span {
+    position: absolute;
+  
+    right: 0;
+    left: 0;
+    top: 125px;
+  
+    font-size: 260%;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  
+  .reason1 {
+    position: absolute;
+    bottom: 77%;
+    left: 50%;
+  }
+  
+  .reason1 .number1 {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+  }
+  
+  .reason1 h2 {
+    position: absolute;
+    bottom: 26%;
+    right: 45%;
+    color: white;
+    font-family: Hind;
+  }
+  
+  .reason1 p {
+    color: white;
+    position: relative;
+    top: 4.5em;
+    left: 14%;
+  }
+  
+  .reason2 {
+    position: absolute;
+    bottom: 62%;
+    left: 50%;
+  }
+  
+  .reason2 .number2 {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+  }
+  
+  .reason2 h2 {
+    position: absolute;
+    bottom: 26%;
+    right: 22%;
+    color: white;
+    font-family: Hind;
+  }
+  
+  .reason2 p {
+    color: white;
+    position: relative;
+    top: 4.5em;
+    left: 14%;
+  }
+  
+  .reason3 {
+    position: absolute;
+    bottom: 46%;
+    left: 50%;
+  }
+  
+  .reason3 .number3 {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+  }
+  
+  .reason3 h2 {
+    position: absolute;
+    bottom: 26%;
+    right: 59%;
+    color: white;
+    font-family: Hind;
+  }
+  
+  .reason3 p {
+    color: white;
+    position: relative;
+    top: 4.5em;
+    left: 14%;
+  }
+  
+  .reason4 {
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+  }
+  
+  .reason4 .number4 {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+  }
+  
+  .reason4 h2 {
+    position: absolute;
+    bottom: 26%;
+    right: 16em;
+    color: white;
+    font-family: Hind;
+  }
+  
+  .reason4 p {
+    color: white;
+    position: relative;
+    top: 4.5em;
+    left: 14%;
+  }
+  
+  .reason5 {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+  }
+  
+  .reason5 .number5 {
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+  }
+  
+  .reason5 h2 {
+    position: absolute;
+    bottom: 26%;
+    right: 53.5%;
+    color: white;
+    font-family: Hind;
+  }
+  
+  .reason5 p {
+    color: white;
+    position: relative;
+    top: 4.5em;
+    left: 14%;
+  }
