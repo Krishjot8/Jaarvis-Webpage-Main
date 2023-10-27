@@ -17,11 +17,35 @@
     height: 5%;
   }
 
-  .line-center {
+  .our-values-line{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+background-color: white;
+
+  }
+
+
+  .our-values-line:after{
+
+    content: "";
+    position: absolute;
+    top: 297%;
+    left: 0;
+    right: 0;
+    border-top: solid 1px rgb(214, 214, 214);
+    z-index: 1;
+
+  }
+  .line-center1 {
     margin: 0;
-    padding: 0 10px;
+    padding: 0 0px;
     background: #fff;
     display: inline-block;
+    position: relative;
+    transform: translate(0,4em);
+    z-index: 5;
+   
   }
 
 .p3 {

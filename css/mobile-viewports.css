@@ -2,10 +2,27 @@
 Small Window */
 
 @media (max-width: 700px), (min-width: 700px) {
- 
+  .nav-header{
+
+    min-width: 100%;
+    max-width: 100%;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    position: fixed;
+   top: 0;
+    z-index: 9;
+    transition: top 0.3s;
+  
+  }
 
   nav.nav1 {
     display: none;
+  }
+
+  .content.content1 {
+    position: relative;
+    height: 2px;
+    transform: translate(0, 10%);
   }
 }
 
@@ -16,7 +33,9 @@ Small Window */
    }
   nav.nav1 {
     display: flex;
+    min-height: 100%;
   }
+
 }
 
 @media (min-width: 1460px) {
@@ -27,4 +46,11 @@ Small Window */
   .carousel_img{
     max-width: 100%;
   }
+}
+
+
+
+@media(max-width: 1024px){
+
+  
 }

@@ -33,8 +33,16 @@ body > header nav nav {
   z-index: 999;
 }
 
-
-
+/* Close Menu */
+.menu-close span{
+  color: #ffffff;
+  font-size: 2em;
+  font-weight: 100;
+  font-family: Raleway;
+  position: absolute;
+  transform: translate(6em,-.5em);
+  z-index: 1880;
+}
 
 
 
@@ -49,7 +57,7 @@ body > header nav.right-navigation nav {
 body > header nav > main,
 body > header nav nav > main {
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
  
   padding: 0 60px;
   width: 100%;
@@ -59,11 +67,13 @@ body > header nav label {
   cursor: pointer;
   font-weight: xs;
   margin: 0;
+  overflow-x: hidden;
+ 
 }
 
 
 
-body > header nav label.menu-close,
+
 body > header nav label.menu-toggle {
   display: block;
   height: 50px;
@@ -71,8 +81,9 @@ body > header nav label.menu-toggle {
   padding: 0;
   position: absolute;
   width: 50px;
+  overflow: hidden;
+  color: white;
 }
-
 
 
 
@@ -80,14 +91,9 @@ body > header nav label.menu-toggle {
 body > header nav.right-navigation label.menu-toggle {
   background:none;
   right: 300px;
+  color: #ffffff;
 }
 
-
-body > header nav.right-navigation label.menu-close{
-background: none;
-  right: 20px;
-  bottom: 690px;
-}
 
 body > header nav label.menu-toggle>span,
 body > header nav label.menu-toggle>span:after,
@@ -97,18 +103,6 @@ body > header nav label.menu-toggle>span:before {
   height: 3px;
   width: 20px;
 }
-
-body > header nav label.menu-close>span:after,
-body > header nav label.menu-close>span:before{
-  background: #ffffff;
-  display: block;
-  height: 3px;
-  width: 20px;
-  position: relative;
-  bottom: 175px;
-
-}
-
 
 
 
@@ -120,40 +114,20 @@ body > header nav label.menu-toggle>span {
   position: relative;
 }
 
-body > header nav label.menu-close>span{
-  display: block;
-  margin-left: 15px;
-  margin-top: 50%;
-  position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 50%;
-  right:50%;
 
-}
 
-body > header nav label.menu-close>span:after,
-body > header nav label.menu-close>span:before,
 body > header nav label.menu-toggle>span:after,
 body > header nav label.menu-toggle>span:before {
   content: "";
+
   position: absolute;
  
 }
 
-body > header nav label.menu-close {
-  margin-top: 26px;
-  opacity: 0;
-  transition: all .4s ease-in;
-}
 
 
-body > header nav label.menu-close>span:before {
-  transform: rotate(-45deg);
-}
-body > header nav label.menu-close>span:after {
-  transform: rotate(45deg);
-}
+
+
 body > header nav label.menu-toggle { margin-top: -30px; }
 
 body > header nav label.menu-toggle>span:after {
@@ -209,22 +183,27 @@ body > header nav nav label.menu-toggle>span:before { background: none !importan
 
 body > header input[type="checkbox"]:checked ~ nav { transform: translateX(0); }
 
-body > header input[type="checkbox"]:checked ~ nav label.menu-close {
-  opacity: 1;
-}
 
 
 .back-toggle{
-  font-size: 80%;
+  font-size: 18px;
   background-color: #00000021;
   width: 3.4em;
-  padding: 6px;
+  padding: 10.5px;
   padding-left: -3px;
   position: relative;
+  cursor: pointer;
+  scale: 85%;
+  transform: translate(-3em,-3em);
   
 }
 
 
+.back-toggle span{
+
+  position: relative;
+  transform: translate(-52%,-3%);
+}
 
 
 
@@ -238,14 +217,17 @@ body > header input[type="checkbox"]:checked ~ nav label.menu-close {
 font-family: Open Sans;
 font-size: 26px;
 font-weight: 900;
+
 color: #bcdaf9;
 }
 .right-navigation main menu li {
   text-align: start;
+  
  left: 15%
   }
   .right-navigation main menu li:hover {
    color: #ffffff;
+   transition: .5s;
     }
 
   .nav-widget-slide{
@@ -258,7 +240,7 @@ color: #bcdaf9;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.3s, visibility 0s 0.3s;
-    z-index: 15;
+    z-index: 9;
 
   }
 
@@ -266,4 +248,27 @@ color: #bcdaf9;
 margin-right:0;
 transition: margin-right 0.3s;
 
+  }
+
+  .our-services-submenu{
+display: inline;
+font-size: 18px;
+    right: 24%;
+ margin-top: 35%;
+
+ 
+  }
+
+
+  .main-menu{
+    display: inline;
+  
+ 
+  }
+
+/*  IOT App, Python,Net list */
+  .tech-menu li{
+
+    position: relative;
+    transform: translate(-12%,45%);
   }

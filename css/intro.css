@@ -1,11 +1,12 @@
 .introduction{
  
-  height: 42em;
+  height: 62em;
   font-size: 24px;
   font-family: Varela Round;
   color: rgb(0, 0, 0);
- 
+ width: 100%;
   display: block;
+  position: relative;
   line-height: 1.4em;
   text-align: start;
 
@@ -44,27 +45,28 @@
 
 
  .intro-content{
-  text-align: center;
-position: relative;
-transform: translate(-0%,0%);
-white-space: no-wrap;
+ 
+position: absolute;
+top: 50%;
+bottom: 50%;
+left: 50%;
+right: 50%;
+transform: translate(-15em,-13em);
+
+text-align: start;
  }
 
 
- .intro-header {
+ .intro-header{
     /* Why jaarvis?*/
-    font-size: 131%;
-    top:0 ;
-    bottom:0 ;
-    left:0;
-    right:0;
+    font-size: 31px;
+   
     font-family: Varela Round;
     color: #444444;
-    text-align: center;
-    position: relative;
-    
+ position: absolute;
+    transform: translate(140%,318%);
   
-    top: 8.75em;
+   
   }
   
   #consulting {
@@ -96,7 +98,7 @@ white-space: no-wrap;
     color: #676767;
     font-size: 68%;
     font-family: Varela Round;
-    transform: translate(-23em,22em);
+    transform: translate(-16em,22em);
   }
   .p2 {
     position: relative;
@@ -107,5 +109,5 @@ white-space: no-wrap;
     color: #676767;
     font-size: 68%;
     font-family: Varela Round;
-    transform: translate(23em,-5em);
+    transform: translate(23em,-7.5em);
   }

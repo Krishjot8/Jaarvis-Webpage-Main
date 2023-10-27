@@ -1,22 +1,25 @@
 let prevScrollPos = window.pageYOffset;
-const HeaderNavbar = document.getElementById("navbar");
+const Hnavbar = document.getElementById("navbar");
 
-window.onscroll = function(){
-    const currentScrollPos = window.pageYOffset;
+// Check if the page is fully loaded
+window.onload = function() {
+  // Set the initial background to transparent when the page is fully loaded
+  Hnavbar.style.backgroundColor = "transparent";
+}
 
-    if(currentScrollPos === 0){
+window.onscroll = function() {
+  const currentScrollPos = window.pageYOffset;
+
+  if (currentScrollPos === 0) {
     // At the top of the page, make navbar visible with a transparent background
-  HeaderNavbar.style.backgroundColor = "transparent";
+    Hnavbar.style.backgroundColor = "transparent";
+  } else if (prevScrollPos > currentScrollPos) {
+    // Scrolling up
+    Hnavbar.style.backgroundColor = "rgba(0, 0, 0, 1)"; // Set the black background when visible
+  } else {
+    // Scrolling down
+    Hnavbar.style.backgroundColor = "rgba(0, 0, 0, 1)"; // Set the background to transparent
+  }
 
-    }else if (prevScrollPos > currentScrollPos){
- // Scrolling up
-        HeaderNavbar.style.backgroundColor = "rgba(0,0,0,7)";
-        HeaderNavbar.style.display = "block";
-    }else{
- // Scrolling Down
-
- HeaderNavbar.style.display = "none";
-  HeaderNavbar.style.backgroundColor =  "transparent"; //change this
-    }
-prevScrollPos = currentScrollPos;
-    }
+  prevScrollPos = currentScrollPos;
+}

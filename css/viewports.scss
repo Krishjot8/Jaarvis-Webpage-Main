@@ -1,7 +1,15 @@
+/* $grid-breakpoints: (
 
+    Dimension        Range                     Devices
 
-
-
+  xs: < 576px,     0px - 576px        (portrait phones)
+  sm: >= 576px,  576px - 768px     (landscape phones)
+  md:  >= 768px, 768px  - 992px    (tablets)
+  lg: >= 992px, 992px - 1200px    (desktops)
+  xl: >=1200px, 1200px - 1400px   (large desktops)
+  xxl: >=1400px,  1400px - beyond  (larger desktops)
+);
+ */
 
 $grid-breakpoints: (
   xs: 0,
@@ -9,53 +17,61 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  
-  xxl: 1400px
-);
 
+  xxl: 1400px,
+);
 
 //No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { none }`
 
-  
-  @include media-breakpoint-up(sm) { }
-@include media-breakpoint-up(md) {  }
-@include media-breakpoint-up(lg) {  }
-@include media-breakpoint-up(xl) { }
-@include media-breakpoint-up(xxl) {  }
+@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(lg) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xxl) {
+}
 
- Usage
+Usage
 
  //Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
 .custom-class {
   display: none;
 }
 @include media-breakpoint-up(sm) {
-  .custom-class {
-    display: block;
+  .content.content1 {
+    position: relative;
+    height: 2px;
+    transform: translate(0, 10%);
   }
 }
-
 
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-
-  
- }
+@media (min-width: 576px) {
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-
-  
+  .content.content1 {
+    position: relative;
+    height: 2px;
+    transform: translate(0, 10%);
   }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) {
+}

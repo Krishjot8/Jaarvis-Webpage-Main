@@ -166,37 +166,39 @@
   height: 12.4em;
   overflow: hidden;
   position: relative;
+  margin-left: 30%;
+  margin-right: 30%;
   max-width: 100%;
+  transform: translate(0,-0.1em);
 }
 
 .company-carousel-inner {
   display: flex;
-  margin: 23px 23px;
-  animation: carousel-move 10s linear infinite;
 
-  justify-content: right;
+  transition: transform .3s ease-in;
 }
 
-.company-carousel-inner img {
+.company-carousel img {
   display: flex;
   margin: 30px 35px;
   filter: grayscale(100%);
+  cursor: pointer;
 }
 
-.company-set {
-  width: 1040px;
-  flex: 0 0 15%;
-  align-items: center;
-  text-align: left;
-  float: none;
+.company-carousel img:hover {
+ 
+  filter: grayscale(0%);
 }
 
-@keyframes carousel-move {
+
+
+@keyframes slide {
   0% {
     transform: translateX(0);
   }
-
   100% {
-    transform: translateX(-4680px);
+    transform: translateX(-3400px);
+
+
   }
 }
