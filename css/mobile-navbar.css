@@ -13,16 +13,16 @@
 
 
 
-body > header input[type="checkbox"],
-body > header input[type="reset"] {
+body div header input[type="checkbox"],
+body div header input[type="reset"] {
   display: none !important;
 }
 
 
 
 
-body > header nav,
-body > header nav nav {
+body div header nav,
+body div header nav nav {
   font-size: 14px;
   height: 100vh;
   padding-top: 30px;
@@ -46,16 +46,16 @@ body > header nav nav {
 
 
 
-body > header nav.right-navigation,
-body > header nav.right-navigation nav {
+body div header nav.right-navigation,
+body div header nav.right-navigation nav {
   background: #1E83EC;
   right: 0;
 
   transform: translateX(300px);
 }
 
-body > header nav > main,
-body > header nav nav > main {
+body div header nav > main,
+body div header nav nav > main {
   height: 100%;
   overflow: hidden;
  
@@ -63,7 +63,7 @@ body > header nav nav > main {
   width: 100%;
 }
 
-body > header nav label {
+body div header nav label {
   cursor: pointer;
   font-weight: xs;
   margin: 0;
@@ -74,7 +74,7 @@ body > header nav label {
 
 
 
-body > header nav label.menu-toggle {
+body div header nav label.menu-toggle {
   display: block;
   height: 50px;
   line-height: 0;
@@ -88,16 +88,16 @@ body > header nav label.menu-toggle {
 
 
 
-body > header nav.right-navigation label.menu-toggle {
+body div header nav.right-navigation label.menu-toggle {
   background:none;
   right: 300px;
   color: #ffffff;
 }
 
 
-body > header nav label.menu-toggle>span,
-body > header nav label.menu-toggle>span:after,
-body > header nav label.menu-toggle>span:before {
+body div header nav label.menu-toggle>span,
+body div header nav label.menu-toggle>span:after,
+body div header nav label.menu-toggle>span:before {
   background: #959595;
   display: block;
   height: 3px;
@@ -107,7 +107,7 @@ body > header nav label.menu-toggle>span:before {
 
 
 
-body > header nav label.menu-toggle>span {
+body div header nav label.menu-toggle>span {
   display: block;
   margin-left: 15px;
   margin-top: 50%;
@@ -116,8 +116,8 @@ body > header nav label.menu-toggle>span {
 
 
 
-body > header nav label.menu-toggle>span:after,
-body > header nav label.menu-toggle>span:before {
+body div header nav label.menu-toggle>span:after,
+body div header nav label.menu-toggle>span:before {
   content: "";
 
   position: absolute;
@@ -128,27 +128,27 @@ body > header nav label.menu-toggle>span:before {
 
 
 
-body > header nav label.menu-toggle { margin-top: -30px; }
+body div header nav label.menu-toggle { margin-top: -30px; }
 
-body > header nav label.menu-toggle>span:after {
+body div header nav label.menu-toggle>span:after {
   transform: translateY(6px);
 }
-body > header nav label.menu-toggle>span:before {
+body div header nav label.menu-toggle>span:before {
   transform: translateY(-6px);
 }
 
-body > header nav menu {
+body div header nav menu {
   margin: 0;
   padding: 0;
 }
-body > header nav menu li {
+body div header nav menu li {
   display: block;
   list-style: none;
 }
 
-body > header nav menu li > a,
-body > header nav menu li > label,
-body > header nav menu li > span {
+body div header nav menu li > a,
+body div header nav menu li > label,
+body div header nav menu li > span {
   display: block;
   line-height: 20px;
   padding:10px 0;
@@ -157,31 +157,31 @@ body > header nav menu li > span {
  top: 45px;
 }
 
-body > header nav.right-navigation menu li > a,
-body > header nav.right-navigation menu li > label,
-body > header nav.right-navigation menu li > span {
+body div header nav.right-navigation menu li > a,
+body div header nav.right-navigation menu li > label,
+body div header nav.right-navigation menu li > span {
   text-align: right;
 }
 
-body > header nav menu li > label:after {
+body div header nav menu li > label:after {
   display: block;
   font-size: 150%;
 }
-body > header nav.left-navigation menu li > label:after {
+body div header nav.left-navigation menu li > label:after {
   content: "";
   float: right;
 }
-body > header nav.right-navigation menu li > label:after {
+body div header nav.right-navigation menu li > label:after {
   content: "";
   float: left;
 }
 
-body > header nav nav label.menu-toggle,
-body > header nav nav label.menu-toggle>span,
-body > header nav nav label.menu-toggle>span:after,
-body > header nav nav label.menu-toggle>span:before { background: none !important; }
+body div header nav nav label.menu-toggle,
+body div header nav nav label.menu-toggle>span,
+body div header nav nav label.menu-toggle>span:after,
+body div header nav nav label.menu-toggle>span:before { background: none !important; }
 
-body > header input[type="checkbox"]:checked ~ nav { transform: translateX(0); }
+body div header input[type="checkbox"]:checked ~ nav { transform: translateX(0); }
 
 
 

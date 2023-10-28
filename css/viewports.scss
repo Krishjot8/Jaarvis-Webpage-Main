@@ -23,15 +23,41 @@ $grid-breakpoints: (
 
 //No media query necessary for xs breakpoint as it's effectively `@media (min-width: 0) { none }`
 
+.container{
+ 
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+
+
 @include media-breakpoint-up(sm) {
+  .container{
+ max-width: 576px;
+  }
 }
 @include media-breakpoint-up(md) {
+  .container{
+    max-width: 768px;
+     }
 }
 @include media-breakpoint-up(lg) {
+  .container{
+    max-width: 992px;
+     }
 }
 @include media-breakpoint-up(xl) {
+  .container{
+    max-width: 1200px;
+     }
 }
 @include media-breakpoint-up(xxl) {
+  .container{
+    max-width: 1400px;
+     }
 }
 
 Usage
