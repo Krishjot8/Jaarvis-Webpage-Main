@@ -52,3 +52,41 @@ window.addEventListener("load", () => {
     return itemActiveIndex;
   }
   
+/* 
+  let isDragging = false;
+let startPosition = 0;
+let currentTranslate = 0;
+let initialTranslate = 0;
+
+const carouselInner = document.querySelector('.carousel_inner');
+
+carouselInner.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  startPosition = e.pageX;
+  initialTranslate = currentTranslate;
+  carouselInner.style.cursor = 'grabbing';
+});
+
+carouselInner.addEventListener('mouseleave', () => {
+  if (isDragging) {
+    isDragging = false;
+    carouselInner.style.cursor = 'grab';
+    currentTranslate = initialTranslate;
+  }
+});
+
+carouselInner.addEventListener('mouseup', () => {
+  if (isDragging) {
+    isDragging = false;
+    carouselInner.style.cursor = 'grab';
+    currentTranslate = initialTranslate;
+  }
+});
+
+carouselInner.addEventListener('mousemove', (e) => {
+  if (isDragging) {
+    const dragDistance = e.pageX - startPosition;
+    currentTranslate = initialTranslate + dragDistance;
+    carouselInner.style.transform = `translateX(${currentTranslate}px)`;
+  }
+}); */

@@ -34,7 +34,7 @@ $grid-breakpoints: (
 
 
 
-@include media-breakpoint-up(sm) {
+@include media-breakpoint-up(576px) {
   .container{
  max-width: 576px;
   }
@@ -79,6 +79,9 @@ Usage
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+  .container{
+    min-width: 576px;
+     }
 }
 
 // Medium devices (tablets, 768px and up)
