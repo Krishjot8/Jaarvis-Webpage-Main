@@ -1,8 +1,14 @@
 .widget {
   background-color: #222222;
-  height: 74em;
+  
+  height: 100%;
+ height: 45rem;
+display:block;
+
   width: 100%;
 }
+
+
 
 .footer {
   background-color: #222222;
@@ -19,7 +25,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-57em, 315em);
+  transform: translate(-57em, 305em);
 }
 
 .aboutjaarvis p {
@@ -31,7 +37,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-42.5em, 241.5em);
+  transform: translate(-42.5em, 231.5em);
   text-align: start;
   line-height: 30px;
 }
@@ -45,7 +51,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-24em, 296.5em);
+  transform: translate(-24em, 286.5em);
 }
 
 .quicklinks li {
@@ -63,7 +69,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-22.5em, 238em);
+  transform: translate(-22.5em, 230em);
 }
 
 .recent-posts h4 {
@@ -75,7 +81,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(5em, 314.6em);
+  transform: translate(5em, 304.6em);
 }
 
 .recent-posts-content {
@@ -88,7 +94,7 @@
   text-align: start;
   left: 50%;
   right: 50%;
-  transform: translate(6.5em, 239em);
+  transform: translate(6.5em, 231em);
 }
 
 .get-in-touch h4 {
@@ -100,7 +106,7 @@
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(35.5em, 314.5em);
+  transform: translate(35.5em, 304.5em);
 }
 .get-in-touch-content {
   font-family: Varela Round;
@@ -110,7 +116,7 @@
   right: 50%;
   left: 50%;
   top: 50%;
-  transform: translate(26.4em, 240em);
+  transform: translate(26.4em, 232em);
 }
 
 /* .widget-row{
@@ -136,7 +142,7 @@
   position: relative;
   display: flex;
   top: 23px;
-  left: 59.06%;
+  left: 54.06%;
   display: inline-block;
 
   font-size: 26px;
