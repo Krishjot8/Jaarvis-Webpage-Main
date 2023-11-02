@@ -1,7 +1,7 @@
 .widget {
   background-color: #222222;
 
-  height: 800px;
+  height: 700px;
 
   width: 100%;
 }
@@ -11,7 +11,7 @@
 
 .footer {
   background-color: #222222;
-  height: 100px;
+  height: 350px;
 }
 
 .horizontal {
@@ -21,7 +21,7 @@
   border-top: solid 1px #4d4d4d;
 
   z-index: 1;
-  transform: translate(0, 8450px);
+  transform: translate(0, 8400px);
 }
 
 .aboutjaarvis h4 {
@@ -41,11 +41,10 @@
   font-size: 16px;
   font-family: Varela Round;
   position: absolute;
-  top: 50%;
-  bottom: 50%;
+ 
   left: 50%;
   right: 50%;
-  transform: translate(-600px, 3960px);
+  transform: translate(-600px,268px);
   text-align: start;
   line-height: 30px;
 }
@@ -138,30 +137,36 @@
   transform: translate(430px, 315px);
 }
 
-.copyright {
+.footer-content{
+
+ 
+}
+
+.footer-content span{
   color: #ffffff;
   font-size: 12px;
   font-family: Varela Round;
-  position: relative;
-  bottom: -43px;
-  left: 180px;
+  position: absolute;
+
+  left: 50%;
+  right: 50%;
+  transform: translate(-600px,305px);
 }
 
-.content2 .social {
+.footer-content .social {
   position: relative;
-  display: flex;
 
-  top: 45px;
   display: inline-block;
-  transform: translate();
+  transform: translate(533px,395px);
   font-size: 26px;
-  left: 950px;
+  left: 50%;
+  right: 50%;
   word-spacing: 21px;
   color: #ffffff;
   scale: 75%;
 }
 
-.content2 .social i {
+.footer-content .social i {
   color: #ffffff;
   left: 50%;
   right: 50%;
