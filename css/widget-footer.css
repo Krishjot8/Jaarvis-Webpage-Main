@@ -1,15 +1,12 @@
 .widget {
   background-color: #222222;
 
- height: 800px;
+  height: 800px;
 
   width: 100%;
 }
 
-.widget-row{
-
-
-
+.widget-row {
 }
 
 .footer {
@@ -17,21 +14,15 @@
   height: 100px;
 }
 
-
-
- .horizontal{
+.horizontal {
   position: absolute;
   top: 7%;
   width: 100%;
   border-top: solid 1px #4d4d4d;
 
   z-index: 1;
-transform: translate(0,8530px);
- 
-  } 
-
-
-
+  transform: translate(0, 8450px);
+}
 
 .aboutjaarvis h4 {
   color: #ffffff;
@@ -39,10 +30,10 @@ transform: translate(0,8530px);
   font-family: Montserrat;
 
   position: absolute;
- 
+
   left: 50%;
   right: 50%;
-  transform: translate(-700px, 221px);
+  transform: translate(-600px, 221px);
 }
 
 .aboutjaarvis p {
@@ -54,15 +45,14 @@ transform: translate(0,8530px);
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-700px, 4040px);
+  transform: translate(-600px, 3960px);
   text-align: start;
   line-height: 30px;
 }
 
-.quicklinks{
-
-position: relative;
-transform: translate(-70px,-3675px);
+.quicklinks {
+  position: relative;
+  transform: translate(10px, -3675px);
 }
 .quicklinks span {
   color: #ffffff;
@@ -94,9 +84,8 @@ transform: translate(-70px,-3675px);
   transform: translate(-345px, 3930px);
 }
 
-
-.recent-posts{
-transform: translate(-150px,-3400px);
+.recent-posts {
+  transform: translate(-130px, -3400px);
 }
 .recent-posts h4 {
   color: #ffffff;
@@ -123,9 +112,8 @@ transform: translate(-150px,-3400px);
   transform: translate(6.5em, 229em);
 }
 
-
-.get-in-touch{
-  transform: translate(-153px,-25px)
+.get-in-touch {
+  transform: translate(-153px, -30px);
 }
 
 .get-in-touch h4 {
@@ -147,38 +135,34 @@ transform: translate(-150px,-3400px);
   right: 50%;
   left: 50%;
 
-  transform: translate(430px, 335px);
+  transform: translate(430px, 315px);
 }
-
-
 
 .copyright {
   color: #ffffff;
   font-size: 12px;
   font-family: Varela Round;
   position: relative;
-  bottom: 13%;
-}
-
-.content2 .copyright {
-  position: relative;
-  top: 21px;
-  left: 39.06%;
+  bottom: -43px;
+  left: 180px;
 }
 
 .content2 .social {
   position: relative;
   display: flex;
-  top: 23px;
-  left: 54.06%;
+
+  top: 45px;
   display: inline-block;
-
+  transform: translate();
   font-size: 26px;
-
-  word-spacing: 11px;
+  left: 950px;
+  word-spacing: 21px;
   color: #ffffff;
+  scale: 75%;
 }
 
 .content2 .social i {
   color: #ffffff;
+  left: 50%;
+  right: 50%;
 }

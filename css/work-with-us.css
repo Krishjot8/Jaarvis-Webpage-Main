@@ -29,7 +29,7 @@
 
 .reason1 {  /*  left and right property settings to 50% makes it stay in the current position */
   position: absolute;
-  bottom: 77%;
+  bottom: 74%;
   left: 50%;
   right: 50%;
 }
@@ -106,7 +106,7 @@ left: 40px;
 
 .reason3 {
   position: absolute;
-  bottom: 550px;
+  bottom: 578px;
   left: 50%;
   right: 50%;
   transform: translate(-80px);
@@ -139,7 +139,7 @@ left: 40px;
 
 .reason4 {
   position: absolute;
-  bottom: 310px;
+  bottom: 345px;
   left: 50%;
   right: 50%;
   transform: translate(-80px,0);

@@ -3,17 +3,18 @@
   height: 142px;
 }
 
-.our-services-line {
+.our-services-line {/* line with text */
   text-align: center;
   position: relative;
   z-index: 2;
-  transform: translate(-4px);
+  transform: translate(-4px,-14px);
 }
 
-.our-services-line span {
+.our-services-line span { /* the word */
   position: absolute;
   z-index: 42;
   background-color: white;
+  padding: 0px 10px; 
   transform: translate(-3em, -0.7em);
 }
 
@@ -39,9 +40,12 @@
 .services {
   display: grid;
   align-items: center;
-  margin-left: -13em;
+
   margin-bottom: -14em;
+  scale: 93%;
   grid-template-columns: repeat(4, 1fr);
+ transform: translate(-215px);
+
 }
 
 /* Cards Content */
