@@ -2,7 +2,7 @@
   background-image: url(assets/whyWorkWithUs.jpg);
   background-repeat: none;
   width: 100%;
-  height: 1190.5px;
+  height: 1290.5px;
   object-fit: cover;
 
   position: relative;
@@ -13,80 +13,103 @@
 
   right: 0;
   left: 0;
-  top: 125px;
+  top: 95px;
 
-  font-size: 260%;
+  font-size: 42px;
   font-weight: 600;
   color: white;
   text-align: center;
 }
 
-.reason1 {
+.reasons {
+
+ 
+  
+}
+
+.reason1 {  /*  left and right property settings to 50% makes it stay in the current position */
   position: absolute;
   bottom: 77%;
   left: 50%;
+  right: 50%;
 }
 
 .reason1 .number1 {
   position: absolute;
-  bottom: 4%;
-  left: 2%;
+
+  right: -20px;
+  top: 110px;
 }
 
 .reason1 span {
   position: absolute;
-  bottom: 26%;
-  right: 45%;
+  top: 100px;
+  left: 40px;
   color: white;
   font-family: Hind;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 900;
-  transform: translate(2.3em, -4em);
 }
 
-.reason1 p {
+.reason1-p1 {
   color: white;
   position: relative;
-  top: 4.5em;
-  left: 14%;
+  top: 120px;
+  
+  line-height: 31px;
+  left: 41px;
+}
+.reason1-p2 {
+  color: white;
+  position: relative;
+  top: 110px;
+left: 40px;
+
+  line-height: 31px;
 }
 
 .reason2 {
   position: absolute;
-  bottom: 62%;
+  bottom: 750px;
   left: 50%;
+  right: 50%;
+ 
 }
 
 .reason2 .number2 {
   position: absolute;
-  bottom: 4%;
-  left: 2%;
+
+  left: -76px;
+  top: 50px;
+  
 }
 
 .reason2 span {
   position: absolute;
-  top: 50%;
-  bottom: 50%;
-  left: 50%;
-  right: 50%;
+
+  top: 45px;
+  left: 40px;
   font-size: 23px;
   color: white;
   font-family: Hind;
-  transform: translate(-13.6em, -1em);
+
   font-weight: 900;
 }
 
 .reason2 p {
   color: white;
   position: relative;
-  top: 4.5em;
-  left: 14%;
+  top: 70px;
+  left: 40px;
+  line-height: 31px;
 }
 
 .reason3 {
   position: absolute;
-  bottom: 46%;
+  bottom: 550px;
   left: 50%;
+  right: 50%;
+  transform: translate(-80px);
 }
 
 .reason3 .number3 {
@@ -97,26 +120,29 @@
 
 .reason3 span {
   position: absolute;
-  bottom: 26%;
-  right: 59%;
+  top: 95px;
+  left: 120px;
   font-size: 23px;
   color: white;
   font-family: Hind;
-  transform: translate(2.6em, -4em);
+
   font-weight: 900;
 }
 
 .reason3 p {
   color: white;
   position: relative;
-  top: 4.5em;
-  left: 14%;
+  top: 130px;
+  left: 120px;
+  line-height: 31px;
 }
 
 .reason4 {
   position: absolute;
-  bottom: 30%;
+  bottom: 310px;
   left: 50%;
+  right: 50%;
+  transform: translate(-80px,0);
 }
 
 .reason4 .number4 {
@@ -127,26 +153,29 @@
 
 .reason4 span {
   position: absolute;
-  bottom: 26%;
-  right: 16em;
   color: white;
   font-family: Hind;
   font-size: 23px;
   font-weight: 900;
-  transform: translate(2.2em, -4em);
+  left: 120px;
+  top: 60px;
 }
 
 .reason4 p {
   color: white;
   position: relative;
-  top: 4.5em;
-  left: 14%;
+  top: 90px;
+  left: 120px;
+  line-height: 31px;
 }
 
 .reason5 {
   position: absolute;
-  bottom: 15%;
+  bottom: 110px;
+  left: 700px;
   left: 50%;
+  right: 50%;
+  transform: translate(-80px,0);
 }
 
 .reason5 .number5 {
@@ -157,18 +186,18 @@
 
 .reason5 span {
   position: absolute;
-  bottom: 26%;
-  right: 53.5%;
+  top: 40px;
   color: white;
   font-family: Hind;
   font-size: 23px;
   font-weight: 900;
-  transform: translate(2.5em, -4em);
+  left: 118px;
 }
 
 .reason5 p {
   color: white;
   position: relative;
-  top: 4.5em;
-  left: 14%;
+  top: 60px;
+  line-height: 31px;
+  left: 120px;
 }

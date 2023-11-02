@@ -36,7 +36,7 @@ $grid-breakpoints: (
 
 @include media-breakpoint-up(576px) {
   .container{
- max-width: 576px;
+ max-width: 576%;
   }
 }
 @include media-breakpoint-up(md) {

@@ -1,19 +1,37 @@
 .widget {
   background-color: #222222;
-  
-  height: 100%;
- height: 45rem;
-display:block;
+
+ height: 800px;
 
   width: 100%;
 }
 
+.widget-row{
 
+
+
+}
 
 .footer {
   background-color: #222222;
-  height: 5em;
+  height: 100px;
 }
+
+
+
+ .horizontal{
+  position: absolute;
+  top: 7%;
+  width: 100%;
+  border-top: solid 1px #4d4d4d;
+
+  z-index: 1;
+transform: translate(0,8530px);
+ 
+  } 
+
+
+
 
 .aboutjaarvis h4 {
   color: #ffffff;
@@ -21,11 +39,10 @@ display:block;
   font-family: Montserrat;
 
   position: absolute;
-  top: 50%;
-  bottom: 50%;
+ 
   left: 50%;
   right: 50%;
-  transform: translate(-57em, 305em);
+  transform: translate(-700px, 221px);
 }
 
 .aboutjaarvis p {
@@ -37,11 +54,16 @@ display:block;
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-42.5em, 231.5em);
+  transform: translate(-700px, 4040px);
   text-align: start;
   line-height: 30px;
 }
 
+.quicklinks{
+
+position: relative;
+transform: translate(-70px,-3675px);
+}
 .quicklinks span {
   color: #ffffff;
   font-size: 80%;
@@ -51,7 +73,7 @@ display:block;
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-24em, 286.5em);
+  transform: translate(-295px, 3912px);
 }
 
 .quicklinks li {
@@ -69,9 +91,13 @@ display:block;
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(-22.5em, 230em);
+  transform: translate(-345px, 3930px);
 }
 
+
+.recent-posts{
+transform: translate(-150px,-3400px);
+}
 .recent-posts h4 {
   color: #ffffff;
   font-size: 12px;
@@ -81,7 +107,7 @@ display:block;
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(5em, 304.6em);
+  transform: translate(40px, 3620px);
 }
 
 .recent-posts-content {
@@ -94,7 +120,12 @@ display:block;
   text-align: start;
   left: 50%;
   right: 50%;
-  transform: translate(6.5em, 231em);
+  transform: translate(6.5em, 229em);
+}
+
+
+.get-in-touch{
+  transform: translate(-153px,-25px)
 }
 
 .get-in-touch h4 {
@@ -106,23 +137,20 @@ display:block;
   bottom: 50%;
   left: 50%;
   right: 50%;
-  transform: translate(35.5em, 304.5em);
+  transform: translate(430px, 250px);
 }
 .get-in-touch-content {
   font-family: Varela Round;
   color: white;
   position: absolute;
-  bottom: 50%;
+
   right: 50%;
   left: 50%;
-  top: 50%;
-  transform: translate(26.4em, 232em);
+
+  transform: translate(430px, 335px);
 }
 
-/* .widget-row{
-  
-    
-  } */
+
 
 .copyright {
   color: #ffffff;

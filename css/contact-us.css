@@ -17,7 +17,7 @@
 
 .contact-us {
     background-color: #7eced5;
-    height: 106em;
+    height: 500px;
   }
   .contact-us h1 {
     font-size: 32px;
@@ -27,7 +27,7 @@
     position: relative;
     left: 0;
     right: 0;
-    top: 40%;
+    top: 150px;
   }
   
   #CU-Button {

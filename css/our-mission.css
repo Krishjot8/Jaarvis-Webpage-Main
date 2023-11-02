@@ -1,7 +1,7 @@
 .our-mission {
   position: relative;
 
-  height: 53em;
+  height: 350px;
 }
 
 .our-mission h1 {
@@ -11,10 +11,9 @@
   font-weight: 600;
   position: absolute;
   font-size: 32px;
-  left: 50%;
-  right: 50%;
-  top: 50%;
-  bottom: 50%;
+ left:50%;
+ right: 50%;
+ top: 100px;
 
   transform: translate(-3em, -0.4em);
 }
@@ -23,9 +22,9 @@
   font-size: 16px;
   font-family: Varela Round;
   position: absolute;
-  left: 50%;
+  left:50%;
   right: 50%;
-  top: 50%;
-  bottom: 50%;
-  transform: translate(-27em, 3em);
+  top: 150px;
+  transform: translate(-400px);
+
 }

@@ -54,3 +54,326 @@ Small Window */
 
   
 }
+
+
+
+
+
+
+/* 
+Phones */
+@media(max-width:576px) {
+
+  .container{
+
+    overflow-x: hidden;
+  }
+
+/* carousel */
+.carousel {
+  height:35vh;
+  width: 100%;
+  min-height: 45vh;
+  max-height: 45vh;
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: -25%;
+  cursor: grab;
+  position: relative;
+  z-index: 1;
+  transform: translate(0,5em);
+  overflow: hidden;
+}
+
+.carousel_inner {
+  width: 100%;
+  height:45vh;
+  min-height: 45vh;
+  max-height: 45vh;
+  overflow: hidden;
+  cursor: grab;
+  
+}
+
+.carousel_inner::after {
+  content: "";
+  display: block;
+  clear: both;
+  cursor: grab;
+ 
+}
+
+.carousel_item {
+ 
+  width: 100%;
+  height:45vh;
+  min-height: 45vh;
+  max-height: 45vh;
+  overflow: hidden;
+ 
+}
+
+.carousel_item__active {
+  scroll-snap-align: start;
+  height: 42em;
+}
+.carousel_item__active:hover {
+  cursor: grab;
+}
+
+
+/* slide effect */
+.carousel_item__active,
+.carousel_item__pos_next {
+  display: block;
+}
+
+.carousel_item__pos_next {
+  left: 100%;
+}
+
+.carousel_item__next {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* fade effect */
+.carousel__fade .carousel_item__pos_next {
+  left: 0;
+  opacity: 0;
+}
+
+.carousel__fade .carousel_item__next {
+  transform: none;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel__fade .carousel_item__active.carousel_item__next {
+  opacity: 0;
+}
+
+/* carousel */
+.carousel_img {
+  display: flex;
+  width: 100%;
+  height:55vh;
+  min-height: 55vh;
+  max-height: 45vh;
+  overflow: hidden;
+  
+}
+
+.carousel_caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  justify-content: center;
+  width: 110vw;
+
+  padding: 3rem 2.5rem;
+  text-align: center;
+  color: #fff;
+  font-family: Open Sans;
+  z-index: 1; overflow: hidden;
+}
+
+.carousel_title {
+  font-family: Open Sans;
+  font-weight: bolder;
+  transform: translate(-5%, 210%);
+  font-size: 23px; overflow: hidden;
+}
+
+.carousel_description {
+  margin-top: 0.75rem;
+  text-wrap: wrap;
+  line-height: 150%;
+  transform: translate(0%, 130%);
+  font-size: 18px;
+  overflow: hidden;
+}
+
+.carousel_box {
+  border: 1em solid white;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-17.5em, -1em);
+  width: 116%;
+  height: 55%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.box-content{
+
+  height: 30vh;
+  transform: translate(0%,-20%);
+}
+.sapimage {
+  position: relative;
+  left: 43%;
+  scale: 150%;
+  transform: translate(-0em, 90%);
+}
+.sap-paragraph {
+  color: #0044a9;
+  font-size: 27px;
+  font-family: Open Sans;
+  font-weight: bolder;
+  text-align: center;
+  transform: translate(-0em, 90%);
+}
+
+/*  Company Carousel */
+.companies {
+  background-color: #ffffff;
+  height: 11em;
+}
+.company-carousel {
+  background-color: rgb(255, 255, 255);
+  height: 12.4em;
+  overflow: hidden;
+  position: relative;
+  margin-left: 30%;
+  margin-right: 30%;
+  max-width: 100%;
+  transform: translate(0,-0.1em);
+}
+
+.company-carousel-inner {
+  display: flex;
+
+  transition: transform .3s ease-in;
+}
+
+.company-carousel img {
+  display: flex;
+  margin: 30px 35px;
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.company-carousel img:hover {
+ 
+  filter: grayscale(0%);
+}
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-3400px);
+
+
+  }
+}
+
+
+/*  Nav Header */
+
+.nav-header{
+
+  min-width: 100%;
+  max-width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 12vh;
+  width: 100%;
+  position: fixed;
+ top: 0;
+  z-index: 9;
+  transition: top 0.3s;
+
+}
+
+/*    Logo */
+#jaarvislogo {
+  position:relative;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-11.5em,-2em);
+  z-index: 99;
+}
+
+
+.right-navigation .menu-toggle{
+  display: block;
+  transform: translate(0,1em);
+ }
+
+ .introduction{
+ 
+  height: 62em;
+  font-size: 24px;
+  font-family: Varela Round;
+  color: rgb(0, 0, 0);
+ width: 100%;
+  display:block;
+  flex-wrap: wrap;
+  position: relative;
+  line-height: 1.4em;
+  text-align: start;
+
+}
+.intro-content{
+ 
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-15em,-13em);
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+   }
+   .p1 {
+    position: relative;
+  top:0 ;
+  bottom:0;
+  left:0;
+  right:0;
+  text-align: start;
+  
+ 
+    color: #676767;
+    font-size: 58%;
+    font-family: Varela Round;
+    transform: translate(42%,22em);
+  }
+  .p2 {
+    position: relative;
+    top:0 ;
+    bottom:0 ;
+    left:0;
+    right:0;
+   
+   text-align: start;
+    color: #676767;
+    font-size: 68%;
+    font-family: Varela Round;
+    transform: translate(10em,20.5em);
+  }
+
+  .intro-header{
+    /* Why jaarvis?*/
+    font-size: 31px;
+   
+    font-family: Varela Round;
+    color: #444444;
+ position: absolute;
+    transform: translate(140%,318%);
+  
+   
+  }
+  
+}
